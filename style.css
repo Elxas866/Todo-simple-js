@@ -1,0 +1,29 @@
+:root {
+    --m: 5px;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#area {
+    margin: var(--m);
+    width: 50%;
+    margin: auto;
+    text-align: start;
+    background-color: gray;
+    border-radius: var(--m);
+    padding: var(--m);
+    font-size: 20px;
+}
+
+#input {
+    height: 30px;
+}
+
+.btn {
+    height: 50px;
+    width: 80px;
+    border-radius: var(--m);
+}
