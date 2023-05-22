@@ -1,5 +1,6 @@
 :root {
     --m: 5px;
+    --f: 20px;
 }
 
 body {
@@ -15,11 +16,12 @@ body {
     background-color: gray;
     border-radius: var(--m);
     padding: var(--m);
-    font-size: 20px;
+    font-size: var(--f);
 }
 
 #input {
-    height: 30px;
+    height: 50px;
+    font-size: var(--f);
 }
 
 .btn {
