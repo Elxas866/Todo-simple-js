@@ -28,3 +28,7 @@ body {
     width: 80px;
     border-radius: var(--m);
 }
+
+.btn:hover {
+    cursor: pointer;
+}
