@@ -10,7 +10,6 @@ body {
 
 #area {
     margin: var(--m);
-    width: 50%;
     margin: auto;
     text-align: start;
     background-color: gray;
