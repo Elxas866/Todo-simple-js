@@ -23,7 +23,7 @@ function addTodo() {
         element.remove();
     });
 
-    // Am Ende noch das input felt clearen
+    // Am Ende noch das input Feld clearen
     input.value = "";
 }
 
