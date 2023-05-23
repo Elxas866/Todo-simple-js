@@ -8,6 +8,11 @@ function addTodo() {
     let area = document.getElementById("area");
     area.appendChild(element);
     element.classList.add("item");
+
+    // Event listener
+    element.addEventListener("click", () => {
+        element.remove();
+    });
 }
 
 document.getElementById("clear_btn").addEventListener("click", () => {

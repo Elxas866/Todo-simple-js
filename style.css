@@ -46,3 +46,10 @@ body {
 .item::before {
     content: "- ";
 }
+
+.item::after {
+    content: "zum löschen anclicken";
+    font-size: 10px;
+    position: absolute;
+    right: 50px;
+}
