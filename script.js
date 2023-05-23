@@ -1,12 +1,12 @@
 function addTodo() {
     // Input speichern
-    let input = document.getElementById("input").value;
-    console.log(input);
+    let input = document.getElementById("input");
+    console.log(input.value);
 
     // p Element erstellen
     let element = document.createElement("p");
     // Text Node für das Element erstellen
-    let text = document.createTextNode(input);
+    let text = document.createTextNode(input.value);
     // Text Node an das p Element anhängen
     element.appendChild(text);
 
@@ -22,6 +22,9 @@ function addTodo() {
     element.addEventListener("click", () => {
         element.remove();
     });
+
+    // Am Ende noch das input felt clearen
+    input.value = "";
 }
 
 // Event Listener für den clear button
