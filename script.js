@@ -7,6 +7,7 @@ function addTodo() {
     element.appendChild(text);
     let area = document.getElementById("area");
     area.appendChild(element);
+    element.classList.add("item");
 }
 
 document.getElementById("clear_btn").addEventListener("click", () => {

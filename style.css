@@ -11,8 +11,11 @@ body {
 #area {
     margin: var(--m);
     margin: auto;
+    margin: 10px;
     text-align: start;
-    background-color: gray;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-style: inset;
     border-radius: var(--m);
     padding: var(--m);
     font-size: var(--f);
@@ -31,4 +34,11 @@ body {
 
 .btn:hover {
     cursor: pointer;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: var(--f);
+    padding: var(--m);
+    box-shadow: 1px 1px 0px black;
 }
